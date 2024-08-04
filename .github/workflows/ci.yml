@@ -24,3 +24,11 @@ jobs:
     - name: Verify Hub Installation
       run: |
         hub version
+
+    - name: Verify Docker Installation
+      run: |
+        docker --version
+
+    - name: Verify Docker Compose Installation
+      run: |
+        docker-compose --version
